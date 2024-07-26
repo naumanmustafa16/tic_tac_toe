@@ -1,5 +1,7 @@
-require_relative "lib/players"
-require_relative "lib/board"
+# frozen_string_literal: true
 
-check_board()
-check_players()
+require_relative 'lib/players'
+require_relative 'lib/board'
+
+check_board
+check_players
